@@ -1,0 +1,94 @@
+.loading{
+    color: #124aa1;
+    text-align: center;
+    margin: 20%;
+}
+.cards{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards h3{
+    color: #124aa1;
+    font-size: 1.5em;
+}
+.cards h4{
+    color: #666;
+    font-weight: 400;
+    font-weight: 1em;
+}
+
+.cards 
+.card{
+    border: solid 2px grey;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.add-product{
+    border: none;
+    color: #fff;
+    outline: none;
+    background: #124aa1;
+    border-radius: 5px;
+    padding: 1em 2em;
+    margin-bottom: 4%;
+    margin-left: 8.5em;
+    font-weight: bold;
+}
+
+.add-product:hover{
+    background: #1249a1bd;
+}
+
+
+.read-product{
+    border: none;
+    color: #fff;
+    outline: none;
+    background: #124aa1;
+    border-radius: 5px;
+    padding: 1em 2em;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.read-product:hover{
+    background: #1249a1bd;
+}
+
+
+.newForm{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 12em;
+}
+
+
+.newForm > input{
+    padding: 12px 20px;
+    width: 50%;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+}
+
+.add-a-product{
+    border: none;
+    outline: none;
+    background-color: #124aa1;   
+    padding: 12px 20px;
+    width: 56%;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.add-a-product:hover{
+    background-color: #1249a1d5; 
+}
+
+
+
