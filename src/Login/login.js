@@ -33,7 +33,7 @@ const Login = () => {
         setLoginMessage('Login Successful');
         navigate('/products'); // Redirect to the "/products" page
       } else {
-        setLoginMessage('Login Failed (username or password is not found). se this: [Username: atuny0, Password: 9uQFF1Lh ]');
+        setLoginMessage('Login Failed (username or password not found). use this: [Username: atuny0, Password: 9uQFF1Lh ]');
       }
     } catch (error) {
       console.log(error.message);
